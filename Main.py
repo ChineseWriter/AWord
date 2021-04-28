@@ -6,7 +6,6 @@
 
 
 import AWord
-import requests
 
 
 if __name__ == "__main__":
@@ -14,4 +13,3 @@ if __name__ == "__main__":
     print(Result)
     print(len(Result))
     print(Result.Uuid)
-    # print(requests.get("https://hitokoto.cn/", params={"uuid": Result.Uuid}).text)
